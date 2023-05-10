@@ -1,0 +1,200 @@
+* {
+    color: white;
+}
+body {
+    background-image: linear-gradient(to right, blueviolet 30% , blue);
+}
+
+.box {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    margin: 70px auto;
+    border-radius: 20px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+}
+
+input {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    padding: 9px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+nav ul {
+    max-width: 700px;
+    min-width: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ol, ul, li {
+    margin-top: 0em;
+    margin-bottom: 0rem;
+}
+
+nav ul li a{
+    display: block;
+}
+
+nav ul li {
+    display: block;
+    margin: 0px 15px;
+    
+}
+
+li {
+    list-style: none;
+}
+
+nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(129, 126, 126);
+}
+
+main {
+    max-width: 1000px;
+    min-width: none;
+    margin: auto;
+    background-color: rgb(212, 214, 214);
+    padding: 20px;
+    color: white;
+}
+
+.botoes a {
+    width: 25%;
+    padding: 7px 10px;
+    background-color: cyan;
+    display: block;
+    text-decoration: none;
+    color:black ;
+    border-radius: 30px;
+}
+
+textarea{
+    width: 75%;
+}
+
+#prioridade {
+    width: 75%;
+    margin: 0px auto;
+}
+
+label {
+    margin-top: 30px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.botoes button {
+    width: 25%;
+    padding: 7px 10px;
+    background-color: cyan;
+    display: block;
+    text-decoration: none;
+    border: none;
+    color:black ;
+    border-radius: 30px;
+}
+
+.botoes button:hover {
+    background-color: rgb(31, 102, 102);
+    color: white;
+    transition: 1s;
+}
+
+.botoes a:hover {
+    background-color: rgb(31, 102, 102);
+    color: white;
+    transition: 1s;
+}
+
+.task {
+    width: 80%;
+    border: 3px solid white;
+    margin: auto;
+    color: white;
+}
+
+p {
+    padding: 20px;
+    font-size: 30px;
+}
+
+main a {
+    width: 50%;
+    padding: 7px 10px;
+    background-color: cyan;
+    display: block;
+    text-decoration: none;
+    color:black ;
+    border-radius: 30px;
+    text-align: center;
+    margin: 40px auto 0px auto;
+}
+
+.teste:hover {
+    background-color: rgb(31, 102, 102);
+    color: rgb(146, 146, 146);
+    transition: 1s;
+}
+
+.aviso {
+    font-size: 20px;
+    color: red;
+    font-weight: 900;
+}
+
+.table {
+    font-size: 20px;
+}
+
+td a{
+    line-height: 100px;
+}
+
+td a:hover {
+    color: blue;
+}
+
+.perfil {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+}
